@@ -116,7 +116,7 @@ export default function Home() {
           </motion.div>
           <motion.div className="flex-1 p-4 relative" whileHover="hover" variants={imageHover}>
             <img src="/images/mockup-1.png" alt="Mockup 1" className="w-full max-w-xs sm:max-w-sm md:max-w-full mx-auto" />
-            <img src="/images/show-drop-1.png" alt="Shadow 1" className="absolute -bottom-32 -z-1" />
+            <img src="/images/show-drop-1.png" alt="Shadow 1" className="absolute -bottom-32 -z-1 right-0" />
           </motion.div>
         </div>
       </motion.section>
@@ -131,7 +131,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row items-center">
           <motion.div className="flex-1 p-4 order-2 md:order-1 relative" whileHover="hover" variants={imageHover}>
             <img src="/images/mockup-2.png" alt="Mockup 2" className="w-full max-w-xs sm:max-w-sm md:max-w-full mx-auto" />
-            <img src="/images/show-drop-2.png" alt="Shadow 2" className="absolute -bottom-32 -z-1" />
+            <img src="/images/show-drop-2.png" alt="Shadow 2" className="absolute -bottom-32 -z-1 left-0" />
           </motion.div>
           <motion.div className="flex-1 p-4 order-1 md:order-2" whileHover="hover" variants={textHover}>
             <h2 className="text-2xl sm:text-3xl md:text-[40px] text-base/20 text-white font-bold uppercase mb-2">
@@ -163,7 +163,7 @@ export default function Home() {
           </motion.div>
           <motion.div className="flex-1 p-4 relative" whileHover="hover" variants={imageHover}>
             <img src="/images/mockup-3.png" alt="Mockup 3" className="w-full max-w-xs sm:max-w-sm md:max-w-full mx-auto" />
-            <img src="/images/show-drop-3.png" alt="Shadow 3" className="absolute -bottom-12 -z-1" />
+            <img src="/images/show-drop-3.png" alt="Shadow 3" className="absolute -bottom-12 -z-1 right-0" />
           </motion.div>
         </div>
       </motion.section>
